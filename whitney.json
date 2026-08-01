@@ -1,17 +1,31 @@
 {
 	"title": {
 		"media": {
-			"url": "https://d3d0lqu00lnqvz.cloudfront.net/donaldoldinghebb/donaldhebb.jpg",
-			"caption": "Donald Olding Hebb (1904–1985), Canadian psychologist and pioneer of neuropsychology.",
-			"credit": "<a href='https://www.thecanadianencyclopedia.ca/en/article/donald-olding-hebb'>The Canadian Encyclopedia</a>"
+			"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Artificial_neural_network.svg/1200px-Artificial_neural_network.svg.png",
+			"caption": "Artificial Neural Networks have been a major area of innovation in Machine Learning.",
+			"credit": "Wikimedia Commons"
 		},
 		"text": {
-			"headline": "Hebbian Learning Rule <br/> 1949",
-			"text": "<p>Donald Hebb introduced the Hebbian Learning Rule, proposing that connections between neurons become stronger when they are activated together. This principle, often summarized as <i>'neurons that fire together, wire together'</i>, became one of the earliest learning mechanisms for artificial neural networks and laid the foundation for modern machine learning.</p>"
+			"headline": "Key Breakthroughs in Machine Learning History",
+			"text": "<p>This timeline explores major innovations and key events that shaped the field of Machine Learning, connecting early conceptual foundations in the 1940s to the development of modern deep learning architectures.</p>"
 		}
 	},
 	"events": [
-				{
+		{
+			"media": {
+				"url": "https://d3d0lqu00lnqvz.cloudfront.net/donaldoldinghebb/donaldhebb.jpg",
+				"caption": "Donald Olding Hebb (1904–1985), Canadian psychologist and pioneer of neuropsychology.",
+				"credit": "<a href='https://www.thecanadianencyclopedia.ca/en/article/donald-olding-hebb'>The Canadian Encyclopedia</a>"
+			},
+			"start_date": {
+				"year": "1949"
+			},
+			"text": {
+				"headline": "Hebbian Learning Rule",
+				"text": "<p>Donald Hebb introduced the Hebbian Learning Rule, proposing that connections between neurons become stronger when they are activated together. This principle, often summarized as <i>'neurons that fire together, wire together'</i>, became one of the earliest learning mechanisms for artificial neural networks and laid the foundation for modern machine learning.</p>"
+			}
+		},
+		{
 			"media": {
 				"url": "https://commons.wikimedia.org/wiki/File:KnnClassification.svg",
 				"caption": "Visualization of the Nearest Neighbor (k-NN) classification algorithm.",
@@ -27,102 +41,101 @@
 				"text": "<p>Thomas Cover and Peter Hart developed the Nearest Neighbor algorithm, one of the earliest machine learning classification methods. Instead of learning a mathematical model, it predicts new data by comparing it with the most similar previously known examples, making it a simple yet influential algorithm still used today.</p>"
 			}
 		},
-
 		{
-	"media": {
-		"url": "https://commons.wikimedia.org/wiki/File:Neocognitron.png",
-		"caption": "Architecture of the Neocognitron neural network.",
-		"credit": "Image: Wikimedia Commons"
-	},
-	"start_date": {
-		"month": "1",
-		"day": "1",
-		"year": "1980"
-	},
-	"text": {
-		"headline": "Neocognitron",
-		"text": "<p>Kunihiko Fukushima introduced the Neocognitron, the first hierarchical neural network capable of recognizing visual patterns even when objects changed position. Its layered architecture inspired the development of modern Convolutional Neural Networks (CNNs), which power today's image recognition systems.</p>"
-	}
-},
-{
-	"media": {
-		"url": "https://commons.wikimedia.org/wiki/File:Reinforcement_learning_diagram.svg",
-		"caption": "Basic reinforcement learning process used by Q-Learning.",
-		"credit": "Image: Wikimedia Commons"
-	},
-	"start_date": {
-		"month": "1",
-		"day": "1",
-		"year": "1989"
-	},
-	"text": {
-		"headline": "Q-Learning",
-		"text": "<p>Christopher Watkins introduced Q-Learning, a reinforcement learning algorithm that enables an agent to learn the best actions through trial and error. By maximizing future rewards without requiring a model of the environment, Q-Learning became a cornerstone of robotics, autonomous systems, and game-playing AI.</p>"
-	}
-},
-{
-	"media": {
-		"url": "https://commons.wikimedia.org/wiki/File:Long_Short-Term_Memory.svg",
-		"caption": "Structure of a Long Short-Term Memory (LSTM) network.",
-		"credit": "Image: Wikimedia Commons"
-	},
-	"start_date": {
-		"month": "1",
-		"day": "1",
-		"year": "1997"
-	},
-	"text": {
-		"headline": "Long Short-Term Memory (LSTM)",
-		"text": "<p>Sepp Hochreiter and Jürgen Schmidhuber developed Long Short-Term Memory (LSTM) networks to solve the vanishing gradient problem in recurrent neural networks. LSTM can retain information over long sequences, making it highly effective for speech recognition, language translation, handwriting recognition, and time-series prediction.</p>"
-	}
-},
-{
-	"media": {
-		"url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
-		"caption": "Geoffrey Hinton helped revive deep learning through Deep Belief Networks.",
-		"credit": "Image: Wikipedia"
-	},
-	"start_date": {
-		"month": "1",
-		"day": "1",
-		"year": "2006"
-	},
-	"text": {
-		"headline": "Deep Learning Revival",
-		"text": "<p>Geoffrey Hinton and his colleagues demonstrated an effective method for training deep neural networks using Deep Belief Networks. Their breakthrough revived interest in deep learning after years of limited progress and paved the way for major advances in computer vision, speech recognition, and artificial intelligence.</p>"
-	}
-},
-{
-	"media": {
-		"url": "https://en.wikipedia.org/wiki/Word2vec",
-		"caption": "Word2Vec introduced vector representations of words.",
-		"credit": "Image: Wikipedia"
-	},
-	"start_date": {
-		"month": "1",
-		"day": "1",
-		"year": "2013"
-	},
-	"text": {
-		"headline": "Word2Vec",
-		"text": "<p>Google researchers introduced Word2Vec, a technique that converts words into numerical vectors while preserving their meanings and relationships. This innovation allowed computers to better understand human language and significantly improved search engines, translation systems, and natural language processing.</p>"
-	}
-},
-{
-	"media": {
-		"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
-		"caption": "The Transformer architecture introduced self-attention for deep learning.",
-		"credit": "Image: Wikipedia"
-	},
-	"start_date": {
-		"month": "6",
-		"day": "12",
-		"year": "2017"
-	},
-	"text": {
-		"headline": "Transformer Architecture",
-		"text": "<p>The publication of <i>Attention Is All You Need</i> introduced the Transformer architecture, replacing recurrent neural networks with self-attention mechanisms. This breakthrough greatly improved the efficiency of language processing and became the foundation of modern AI systems such as GPT, Gemini, Claude, and many other large language models.</p>"
-	}
-}
+			"media": {
+				"url": "https://commons.wikimedia.org/wiki/File:Neocognitron.png",
+				"caption": "Architecture of the Neocognitron neural network.",
+				"credit": "Image: Wikimedia Commons"
+			},
+			"start_date": {
+				"month": "1",
+				"day": "1",
+				"year": "1980"
+			},
+			"text": {
+				"headline": "Neocognitron",
+				"text": "<p>Kunihiko Fukushima introduced the Neocognitron, the first hierarchical neural network capable of recognizing visual patterns even when objects changed position. Its layered architecture inspired the development of modern Convolutional Neural Networks (CNNs), which power today's image recognition systems.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://commons.wikimedia.org/wiki/File:Reinforcement_learning_diagram.svg",
+				"caption": "Basic reinforcement learning process used by Q-Learning.",
+				"credit": "Image: Wikimedia Commons"
+			},
+			"start_date": {
+				"month": "1",
+				"day": "1",
+				"year": "1989"
+			},
+			"text": {
+				"headline": "Q-Learning",
+				"text": "<p>Christopher Watkins introduced Q-Learning, a reinforcement learning algorithm that enables an agent to learn the best actions through trial and error. By maximizing future rewards without requiring a model of the environment, Q-Learning became a cornerstone of robotics, autonomous systems, and game-playing AI.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://commons.wikimedia.org/wiki/File:Long_Short-Term_Memory.svg",
+				"caption": "Structure of a Long Short-Term Memory (LSTM) network.",
+				"credit": "Image: Wikimedia Commons"
+			},
+			"start_date": {
+				"month": "1",
+				"day": "1",
+				"year": "1997"
+			},
+			"text": {
+				"headline": "Long Short-Term Memory (LSTM)",
+				"text": "<p>Sepp Hochreiter and Jürgen Schmidhuber developed Long Short-Term Memory (LSTM) networks to solve the vanishing gradient problem in recurrent neural networks. LSTM can retain information over long sequences, making it highly effective for speech recognition, language translation, handwriting recognition, and time-series prediction.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+				"caption": "Geoffrey Hinton helped revive deep learning through Deep Belief Networks.",
+				"credit": "Image: Wikipedia"
+			},
+			"start_date": {
+				"month": "1",
+				"day": "1",
+				"year": "2006"
+			},
+			"text": {
+				"headline": "Deep Learning Revival",
+				"text": "<p>Geoffrey Hinton and his colleagues demonstrated an effective method for training deep neural networks using Deep Belief Networks. Their breakthrough revived interest in deep learning after years of limited progress and paved the way for major advances in computer vision, speech recognition, and artificial intelligence.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/Word2vec",
+				"caption": "Word2Vec introduced vector representations of words.",
+				"credit": "Image: Wikipedia"
+			},
+			"start_date": {
+				"month": "1",
+				"day": "1",
+				"year": "2013"
+			},
+			"text": {
+				"headline": "Word2Vec",
+				"text": "<p>Google researchers introduced Word2Vec, a technique that converts words into numerical vectors while preserving their meanings and relationships. This innovation allowed computers to better understand human language and significantly improved search engines, translation systems, and natural language processing.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+				"caption": "The Transformer architecture introduced self-attention for deep learning.",
+				"credit": "Image: Wikipedia"
+			},
+			"start_date": {
+				"month": "6",
+				"day": "12",
+				"year": "2017"
+			},
+			"text": {
+				"headline": "Transformer Architecture",
+				"text": "<p>The publication of <i>Attention Is All You Need</i> introduced the Transformer architecture, replacing recurrent neural networks with self-attention mechanisms. This breakthrough greatly improved the efficiency of language processing and became the foundation of modern AI systems such as GPT, Gemini, Claude, and many other large language models.</p>"
+			}
+		}
 	]
 }
